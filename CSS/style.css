@@ -53,6 +53,10 @@ a{
     font-family: Cursive;
     font-size: 18px;
 }
+a:hover{
+    color: rgb(200, 16, 16);
+    text-decoration: underline;
+}
 
 h1{
     width: 400px;
@@ -65,10 +69,7 @@ h1{
     text-transform: capitalize;
 }
 
-a:hover{
-    color: rgb(200, 16, 16);
-    text-decoration: underline;
-}
+
 
 .quote{
    
