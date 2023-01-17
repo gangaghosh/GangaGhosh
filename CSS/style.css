@@ -53,24 +53,7 @@ a{
     font-family: Cursive;
     font-size: 18px;
 }
-a:hover{
-    color: rgb(200, 16, 16);
-    text-decoration: underline;
-}
-/* .info{
-    border: 2px solid white;
-    display: inline-block;
-    position: absolute;
-    top: 60px;
-    padding: 60px;
-    margin: 30px;
-    font-size: 25px;
-    left: 350px;
-} */
-/* .map{
-    width: 10px;
-    height: 10px;
-} */
+
 h1{
     width: 400px;
     text-align: center;
@@ -87,14 +70,6 @@ h1:hover{
     font-size: 50px;
 }
 
-/* .picstyle{
-    border: 4px solid black;
-    width: 880px;
-    height: 450px;
-    position: relative;
-    left: 480px;
-    top: 180px;
-} */
 .quote{
    
     position: relative;
