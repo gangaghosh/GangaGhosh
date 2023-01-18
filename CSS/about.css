@@ -1,10 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bg{
+     min-height: 100vh;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     display: flex;
+}
+.bg::before {
+    content: '';
+    background-image: url(../Images/img.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+     top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.95;
+}
+.content{
+    position: absolute;
+   top: 10px;
+   color: whitesmoke;
+}
+nav { 
+    /* border: 2px solid white; */
+    width: 600px;
+    position: absolute;
+    left: 770px;
+    top: 40px;
+    }
+a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 20px;
+    font-family: Cursive;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(200, 16, 16);
+    text-decoration: underline;
+}   
+        
 
-        .accordion {
-          background-color: #eee;
+.accordion {
+          /* background-color: #eee; */
           color: rgb(170, 22, 22);
           cursor: pointer;
           padding: 18px;
-          width: 100%;
+          width: 145%;
           border: none;
           text-align: left;
           outline: none;
@@ -12,14 +61,27 @@
           transition: 0.4s;
         }
         
-        .active, .accordion:hover {
-          background-color: rgb(255, 255, 255); 
+.active, .accordion:hover {
+          background-color: rgb(196, 20, 14); 
         }
         
-        .panel {
-          padding: 0 18px;
+.panel {
+          padding: 018px;
           display: none;
-          background-color: white;
+          background-color: rgb(58, 55, 55);
           overflow: hidden;
+          
         }
-       
+        
+.qualification a{
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+        color: gold;
+       }
+.qualification a:hover{
+               color: rgb(25, 189, 189);
+               text-decoration: underline;
+}
+.passion-img{
+    width: 10em;
+}
