@@ -1,87 +1,151 @@
-*{
+* {
     margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
 }
-.bg{
-     min-height: 100vh;
-     justify-content: center;
-     align-items: center;
-     position: relative;
-     display: flex;
-}
-.bg::before {
-    content: '';
+
+.bg {
     background-image: url(../Images/img.avif);
-    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+    color: azure;
     background-size: cover;
     background-position: center;
-    position: absolute;
-     top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0.95;
+
 }
-.content{
-    position: absolute;
-   top: 10px;
-   color: whitesmoke;
+
+.qualification {
+    font-family: 'Bree Serif', serif;
+    border: 2px solid white;
+    padding: 25px;
+    width: 380px;
+    position: relative;
+    left: 2%;
+    top: 3em;
+    border-radius: 20px 0px 20px 0px;
+    font-size: 18px;
 }
-nav { 
-    /* border: 2px solid white; */
-    width: 600px;
+
+.qualification:hover {
+    background-color: antiquewhite;
+    color: black;
+    ;
+
+}
+
+.qualification h3:hover {
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+.qualification a {
+    font-family: 'Bree Serif', serif;
+    text-decoration: none;
+    color: rgb(16, 145, 55);
+}
+
+.qualification a:hover {
+    color: blue;
+    text-decoration: underline;
+
+}
+
+.passion {
+    font-family: 'Bree Serif', serif;
+    border: 2px solid white;
+    padding: 20px;
+    text-align: justify;
+    width: 400px;
+    position: relative;
+    left: 38em;
+    bottom: 12em;
+    border-radius: 20px 0px 20px 0px;
+    font-size: 18px;
+}
+
+.passion:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.skill {
+    font-family: 'Bree Serif', serif;
+    border: 2px solid white;
+    width: 250px;
+    padding: 20px;
     position: absolute;
-    left: 770px;
-    top: 40px;
-    }
-a{
-    color: aliceblue;
+    right: 4%;
+    top: 33%;
+    border-radius: 0px 20px 0px 20px;
+    font-size: 18px;
+}
+
+.skill:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+h2,
+pre {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+}
+
+nav {
+    text-align: right;
+    position: relative;
+    bottom: 2em;
+    right: 40px;
+    
+}
+
+a {
+    color: rgb(123, 180, 231);
     text-decoration: none;
     padding-right: 20px;
     font-family: Cursive;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: rgb(200, 16, 16);
     text-decoration: underline;
-}   
-        
-
-.accordion {
-          /* background-color: #eee; */
-          color: rgb(170, 22, 22);
-          cursor: pointer;
-          padding: 18px;
-          width: 145%;
-          border: none;
-          text-align: left;
-          outline: none;
-          font-size: 15px;
-          transition: 0.4s;
-        }
-        
-.active, .accordion:hover {
-          background-color: rgb(196, 20, 14); 
-        }
-        
-.panel {
-          padding: 018px;
-          display: none;
-          background-color: rgb(58, 55, 55);
-          overflow: hidden;
-          
-        }
-        
-.qualification a{
-        font-family: 'Times New Roman', Times, serif;
-        text-decoration: none;
-        color: gold;
-       }
-.qualification a:hover{
-               color: rgb(25, 189, 189);
-               text-decoration: underline;
 }
-.passion-img{
-    width: 10em;
+
+.whoami {
+    position: absolute;
+    left: 33%;
+    top: 45%;
+    /* font-size: 13px; */
+
+}
+
+.whoami:hover {
+    font-size: large;
+    color: pink;
+}
+
+img {
+    filter: blur(5px);
+    width: 400px;
+    height: 600px;
+}
+
+img:hover {
+    filter: blur(0px);
+    width: 500px;
+    height: 700px;
+}
+
+blockquote {
+    /* border: 2px solid white; */
+    width: 8em;
+    /* height: 5em; */
+    position: relative;
+    left: 15em;
+    bottom: 8em;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 3.5rem;
+}
+blockquote:hover{
+    color: rgb(255, 27, 27);
 }
